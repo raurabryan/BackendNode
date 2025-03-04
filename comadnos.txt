@@ -1,0 +1,5 @@
+COMADOS PARA NODE JS 
+npm init --y
+npm install express
+node app.js
+npm install body-parser
