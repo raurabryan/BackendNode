@@ -38,7 +38,7 @@ app.put("/contactos/:idParam",(req,resp)=>{
 app.delete("/contactos/:id",(req,resp)=>{
     const id= req.params.id;
     console.log("id:",id);
-    resp.send();
+    resp.send({id:id});
 })
 
 app.listen(puerto,()=>{
